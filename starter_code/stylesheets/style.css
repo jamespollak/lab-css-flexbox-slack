@@ -5,3 +5,188 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    /* display: flex;
+    flex-direction: column; */
+    font-family: "Slack-Circular-Pro","Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    background: white;
+}
+
+.hamburgermenu {
+    display: none;
+}
+
+header {
+    margin: 40px 20px;
+    margin-top: 100px;
+}
+
+header img {
+    margin-top: 30px;
+}
+
+nav img {
+    width: 25%;
+}
+
+
+main form {
+    padding:  0px 20px;
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+ul {
+    flex-direction: column;
+}
+
+.companies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #F4F3F4;
+    padding:  0px 20px;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    background-color: #3424C3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom:20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+main .discoverbutton {
+    margin-top: 20px;
+    background-color: white;
+    color: #3424C3;
+    font-weight: bold;
+
+}
+
+.companyimages {
+    margin: 30px 0;
+}
+
+.companyimages img {
+    width: 60%;
+    padding: 30px;
+    border-bottom: 1px solid darkgrey;
+}
+
+.companyimages img:last-of-type {
+    border-bottom: none;
+}
+
+.bottom {
+    padding: 20px;
+    background: #F4F3F4;
+}
+
+footer .linkssection img {
+    width: 25%;
+    margin-top: 20px;
+}
+
+footer ul {
+    width:50%;
+    box-sizing: border-box;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; */
+    list-style: none;
+    /* grid-template-columns: repeat(2,1fr); */
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* 
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+footer ul li {
+    margin: 20px;
+}
+
+.bottom .bottomlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.bottom .location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    margin: 0px 80px 30px 80px;
+}
+
+.bottom .location .flag {
+    width: 20px;
+}
+
+.bottom .socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0px 110px 0px 110px;
+}
